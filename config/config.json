@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spForm/SpFormWebPart.js",
+          "manifest": "./src/webparts/spForm/SpFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFormWebPartStrings": "lib/webparts/spForm/loc/{locale}.js"
+  }
+}
